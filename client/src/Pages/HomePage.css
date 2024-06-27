@@ -1,0 +1,21 @@
+#home{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(249.17deg, #1E62A3 4.74%, rgba(22, 58, 92, 0) 112.55%);
+    opacity: 0.6;
+}
+/* Rectangle 53 */
+#form{
+    position: absolute;
+    width: 611px;
+    height: 631px;
+    left: calc(50% - 611px/2 + 495.5px);
+    top: calc(50% - 631px/2 + 35.5px);
+    
+    background: #021629;
+    border-radius: 10px;
+}
