@@ -54,6 +54,19 @@ app.use("/profile",imgRoute)
 //   });
 // });
 
+app.get("/",async(req,res)=>{
+  try {
+      res.status(200).json({
+        message:"fine All right"
+      })
+  } catch (error) {
+    console.log(`Error ${error.message}`);
+    return res.status(500).json({
+      message:"Error while / route"
+    })
+  }
+})
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
